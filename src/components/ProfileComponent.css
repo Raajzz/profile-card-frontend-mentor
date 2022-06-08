@@ -121,8 +121,20 @@ hr{
   margin-top: 5px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1024px) {
   .card{
     width: 350px;
+  }
+  
+  .card-container::after{
+    top: -340px;
+    left: -180px;
+    transform: rotate(160deg);
+  }
+
+  .card-container::before{
+    left: 185px;
+    top: 350px;
+    transform: rotate(-5deg);
   }
 }

@@ -1,6 +1,9 @@
-# Three Column Preview Card Component built using React and Vanilla CSS
+# Profile Card Component made using React and Vanilla CSS
 
-The deployed site can be viewed [here](https://three-column-preview-raaj-s.netlify.app/)
+- Although I got the desktop varient working, I'm still yet to completely mimic the mobile varient. 
+- Importing the SVG through `background-image: url()` gave me issues such as SVG got cut off while importing in firefox. Which resulted in creating workarounds to get the proper design such as only using a single background svg and appling transform to make it similar to the design provided.
+- Will try to explore and learn more about in the future.
+
 
 # Getting Started with Create React App
 
